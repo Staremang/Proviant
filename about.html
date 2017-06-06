@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>О компании</title>
+    
+    <link rel="stylesheet" href="css/main.min.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+		<div class="container header-block">
+			<a href="#" class="logo">
+				<img src="img/logo.png" alt="">
+			</a>
+			<div class="menu">
+				<a href="#" class="menu__item">О компании</a>
+				<a href="#" class="menu__item">Статьи</a>
+				<a href="#" class="menu__item">Новости</a>
+				<a href="#" class="menu__item">Рецепты</a>
+				
+				<a href="#" class="menu__item" data-jq-dropdown="#dropdown-1">Продукция</a>
+				<div id="dropdown-1" class="jq-dropdown-relative jq-dropdown">
+					<ul class="jq-dropdown-menu">
+						<li><a href="#" class="menu__item">Элемент 1</a></li>
+						<li><a href="#" class="menu__item">Элемент 2</a></li>
+						<li><a href="#" class="menu__item">Элемент 3</a></li>
+					</ul>
+				</div>
+				
+				<a href="#" class="menu__item" data-jq-dropdown="#dropdown-2">Свое производство</a>
+				<div id="dropdown-2" class="jq-dropdown-relative jq-dropdown">
+					<ul class="jq-dropdown-menu">
+						<li><a href="#" class="menu__item">Элемент 1</a></li>
+						<li><a href="#" class="menu__item">Элемент 2</a></li>
+						<li><a href="#" class="menu__item">Элемент 3</a></li>
+						<li class="jq-dropdown-divider"></li>
+						<li><a href="#" class="menu__item">Элемент 1</a></li>
+						<li><a href="#" class="menu__item">Элемент 2</a></li>
+						<li><a href="#" class="menu__item">Элемент 3</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="header__social-block">
+				<a href="#" class="social-icon">
+					<img src="img/ig-logo.svg" alt="Instagram">
+				</a>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<img src="img/company-info-header.jpg" alt="О компании" class="about-prev-img">
+		<div class="section about">
+			<div class="container">
+				<div>
+					<div class="breadcrumb">
+						<a href="#" class="breadcrumb__item">Главная</a>
+						<span class="breadcrumb__item-hr">/</span>
+						<span class="breadcrumb__item_active">О компании</span>
+					</div>
+				</div>
+				<h1 class="about__title">О компании</h1>
+				<p>ГК «ЭФКО» занимает лидирующие позиции в своей отрасли и зарекомендовала себя как надежный партнер, при этом Компания продолжает успешное развитие во всех сегментах и видит широкие возможности для дальнейшей экспансии на другие рынки. 
+				<br> Основные черты Компании - это инновационный подход к производству, высокое качество продукции и бережное отношение к окружающей среде.</p>
+				<h2>Лидер рынка:</h2>
+				<p>Группа компаний «ЭФКО» является крупнейшим российским вертикально-интегрированным производителем жиров специального назначения, используемых в кондитерской, хлебопекарной и других отраслях пищевой промышленности. Компания также является ведущим производителем майонеза, растительного масла и кетчупа в России, выпуская эту продукцию под такими широко известными брендами, как «Слобода» и Altero.</p>
+				<h2>Вертикально-интегрированная модель бизнеса:</h2>
+				<p>Подразделения Компании самостоятельно обеспечивают выполнение полного цикла работ: от закупки и переработки сырья до реализации готовой продукции.</p>
+				<h2>Партнерство с терминалом на Таманском полуострове:</h2>
+				<p>Партнерство с единственным в России глубоководным морским маслоналивным терминалом в порту Тамань на Черном море обеспечивает логистические преимущества компании.</p>
+				<h2>Инновации:</h2>
+				<p>Инновационная деятельность Группы компаний «ЭФКО» включает в себя обширную программу по разработке новых продуктов и технологий производства, внедрению и совершенствованию системы управления качеством, а также автоматизации бизнес-процессов.</p>
+				<div class="about__gallery row">
+					<div class="col-4">
+						<img src="img/about-1.jpg" alt="О компании">
+					</div>
+					<div class="col-4">
+						<img src="img/about-2.jpg" alt="О компании">
+					</div>
+					<div class="col-4">
+						<img src="img/about-3.jpg" alt="О компании">
+					</div>
+					<div class="col-4">
+						<img src="img/about-4.jpg" alt="О компании">
+					</div>
+					<div class="col-4">
+						<img src="img/about-5.jpg" alt="О компании">
+					</div>
+					<div class="col-4">
+						<img src="img/about-6.jpg" alt="О компании">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="footer">
+				<div class="copyright">
+					© ООО "Провиант" г. Уссурийск 2017, Частная сыроварня Алексей-Никольское
+				</div>
+				<div class="dev">
+					<div class="dev__text">Разработка сайта</div>
+					<a href="#">
+						<img src="img/dev-logo.png" alt="" class="dev__img">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+		var addr = "Владивосток, Суханова 6";
+	</script>
+	<script src="js/main.min.js"></script>
+</body>
+</html>

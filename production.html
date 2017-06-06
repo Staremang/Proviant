@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Своё производство</title>
+    
+    <link rel="stylesheet" href="css/main.min.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+		<div class="container header-block">
+			<a href="#" class="logo">
+				<img src="img/logo.png" alt="">
+			</a>
+			<div class="menu">
+				<a href="#" class="menu__item">О компании</a>
+				<a href="#" class="menu__item">Статьи</a>
+				<a href="#" class="menu__item">Новости</a>
+				<a href="#" class="menu__item">Рецепты</a>
+				
+				<a href="#" class="menu__item" data-jq-dropdown="#dropdown-1">Продукция</a>
+				<div id="dropdown-1" class="jq-dropdown-relative jq-dropdown">
+					<ul class="jq-dropdown-menu">
+						<li><a href="#" class="menu__item">Элемент 1</a></li>
+						<li><a href="#" class="menu__item">Элемент 2</a></li>
+						<li><a href="#" class="menu__item">Элемент 3</a></li>
+					</ul>
+				</div>
+				
+				<a href="#" class="menu__item" data-jq-dropdown="#dropdown-2">Свое производство</a>
+				<div id="dropdown-2" class="jq-dropdown-relative jq-dropdown">
+					<ul class="jq-dropdown-menu">
+						<li><a href="#" class="menu__item">Элемент 1</a></li>
+						<li><a href="#" class="menu__item">Элемент 2</a></li>
+						<li><a href="#" class="menu__item">Элемент 3</a></li>
+						<li class="jq-dropdown-divider"></li>
+						<li><a href="#" class="menu__item">Элемент 1</a></li>
+						<li><a href="#" class="menu__item">Элемент 2</a></li>
+						<li><a href="#" class="menu__item">Элемент 3</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="header__social-block">
+				<a href="#" class="social-icon">
+					<img src="img/ig-logo.svg" alt="Instagram">
+				</a>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<div class="full-section">
+			<div class="products-menu">
+				<div>
+					<div class="breadcrumb">
+						<a href="#" class="breadcrumb__item">Главная</a>
+						<span class="breadcrumb__item-hr">/</span>
+						<span class="breadcrumb__item_active">Продукты</span>
+					</div>
+				</div>
+				<div class="products-menu__title">Aссортимент сыров:</div>
+				
+				<div>
+					<a href="#buratta" class="products-menu__item">Буратта</a>
+				</div>
+				<div>
+					<a href="#kachkaval" class="products-menu__item">Качкавал</a>
+				</div>
+				<div>
+					<a href="#kachotta" class="products-menu__item">Качотта</a>
+				</div>
+				<div>
+					<a href="#strakkino" class="products-menu__item">Страккино</a>
+				</div>
+				<div>
+					<a href="#ricotta" class="products-menu__item">Рикота</a>
+				</div>
+				<div>
+					<a href="#mozzarella" class="products-menu__item">Моцарелла</a>
+				</div>
+				<div>
+					<a href="#suluguni" class="products-menu__item">Сулугуни</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product__item" id="buratta">
+					<div class="product__gallery">
+						<div class="product-slider owl-carousel owl-theme">
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+						</div>
+					</div>
+					<div class="product-info info">
+						<div class="product-info__item info">
+							<h1 class="info__title">Буратта</h1>
+							<div class="characteristic">
+								<div class="characteristic__item">
+									<img src="img/i-check-black.png" alt="Срок созревания" class="characteristic__img">
+									<div class="characteristic__title">Срок созревания:</div>
+									<div class="characteristic__content">20-30 дней</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-earth-black.png" alt="Страна происхождения" class="characteristic__img">
+									<div class="characteristic__title">Страна происхождения:</div>
+									<div class="characteristic__content">Италия</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-format-black.png" alt="Формат фасовки" class="characteristic__img">
+									<div class="characteristic__title">Формат фасовки:</div>
+									<div class="characteristic__content">2250 гр.</div>
+								</div>
+							</div>
+							<p>Сыр Страккино относится к мягким итальянским сырам. Производят его в Ломбардии из пастеризованного молока, которое дают коровы провинции Гросетто (Grosetto). По одной из версий название сыра страккино происходит от ломбардского stracch con, что в переводе обозначает «уставший». Коровы летом возвращались с альпийских пастбищ уставшими и давали мало молока. Отсюда и пошло название сыра, который делали из него. Это жирный, пластичный свежий сыр (20-30 дней выдержки) с легкой едва уловимой горчинкой. Достаточно намазать его на кусок свежего хлеба или фокачча, и уже будет вкусно.</p>
+							<h2 class="info__subtitle">Характеристики(БЖУ на 100 г.):</h2>
+							<p>белки — 12 г. жиры — 24 г. углеводы — 2 г. Калорийность сыра Страккино — 364 <br> ккал. Соотношение БЖУ: белков — 31,6 %, жиров — 63,2 %, углеводов — 5,3 %.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product__item" id="kachkaval">
+					<div class="product__gallery">
+						<div class="product-slider owl-carousel owl-theme">
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+						</div>
+					</div>
+					<div class="product-info info">
+						<div class="product-info__item info">
+							<h1 class="info__title">Качкавал</h1>
+							<div class="characteristic">
+								<div class="characteristic__item">
+									<img src="img/i-check-black.png" alt="Срок созревания" class="characteristic__img">
+									<div class="characteristic__title">Срок созревания:</div>
+									<div class="characteristic__content">20-30 дней</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-earth-black.png" alt="Страна происхождения" class="characteristic__img">
+									<div class="characteristic__title">Страна происхождения:</div>
+									<div class="characteristic__content">Италия</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-format-black.png" alt="Формат фасовки" class="characteristic__img">
+									<div class="characteristic__title">Формат фасовки:</div>
+									<div class="characteristic__content">2250 гр.</div>
+								</div>
+							</div>
+							<p>Сыр Страккино относится к мягким итальянским сырам. Производят его в Ломбардии из пастеризованного молока, которое дают коровы провинции Гросетто (Grosetto). По одной из версий название сыра страккино происходит от ломбардского stracch con, что в переводе обозначает «уставший». Коровы летом возвращались с альпийских пастбищ уставшими и давали мало молока. Отсюда и пошло название сыра, который делали из него. Это жирный, пластичный свежий сыр (20-30 дней выдержки) с легкой едва уловимой горчинкой. Достаточно намазать его на кусок свежего хлеба или фокачча, и уже будет вкусно.</p>
+							<h2 class="info__subtitle">Характеристики(БЖУ на 100 г.):</h2>
+							<p>белки — 12 г. жиры — 24 г. углеводы — 2 г. Калорийность сыра Страккино — 364 <br> ккал. Соотношение БЖУ: белков — 31,6 %, жиров — 63,2 %, углеводов — 5,3 %.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product__item" id="kachotta">
+					<div class="product__gallery">
+						<div class="product-slider owl-carousel owl-theme">
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+						</div>
+					</div>
+					<div class="product-info info">
+						<div class="product-info__item info">
+							<h1 class="info__title">Качотта</h1>
+							<div class="characteristic">
+								<div class="characteristic__item">
+									<img src="img/i-check-black.png" alt="Срок созревания" class="characteristic__img">
+									<div class="characteristic__title">Срок созревания:</div>
+									<div class="characteristic__content">20-30 дней</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-earth-black.png" alt="Страна происхождения" class="characteristic__img">
+									<div class="characteristic__title">Страна происхождения:</div>
+									<div class="characteristic__content">Италия</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-format-black.png" alt="Формат фасовки" class="characteristic__img">
+									<div class="characteristic__title">Формат фасовки:</div>
+									<div class="characteristic__content">2250 гр.</div>
+								</div>
+							</div>
+							<p>Сыр Страккино относится к мягким итальянским сырам. Производят его в Ломбардии из пастеризованного молока, которое дают коровы провинции Гросетто (Grosetto). По одной из версий название сыра страккино происходит от ломбардского stracch con, что в переводе обозначает «уставший». Коровы летом возвращались с альпийских пастбищ уставшими и давали мало молока. Отсюда и пошло название сыра, который делали из него. Это жирный, пластичный свежий сыр (20-30 дней выдержки) с легкой едва уловимой горчинкой. Достаточно намазать его на кусок свежего хлеба или фокачча, и уже будет вкусно.</p>
+							<h2 class="info__subtitle">Характеристики(БЖУ на 100 г.):</h2>
+							<p>белки — 12 г. жиры — 24 г. углеводы — 2 г. Калорийность сыра Страккино — 364 <br> ккал. Соотношение БЖУ: белков — 31,6 %, жиров — 63,2 %, углеводов — 5,3 %.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product__item" id="strakkino">
+					<div class="product__gallery">
+						<div class="product-slider owl-carousel owl-theme">
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+						</div>
+					</div>
+					<div class="product-info info">
+						<div class="product-info__item info">
+							<h1 class="info__title">Страккино</h1>
+							<div class="characteristic">
+								<div class="characteristic__item">
+									<img src="img/i-check-black.png" alt="Срок созревания" class="characteristic__img">
+									<div class="characteristic__title">Срок созревания:</div>
+									<div class="characteristic__content">20-30 дней</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-earth-black.png" alt="Страна происхождения" class="characteristic__img">
+									<div class="characteristic__title">Страна происхождения:</div>
+									<div class="characteristic__content">Италия</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-format-black.png" alt="Формат фасовки" class="characteristic__img">
+									<div class="characteristic__title">Формат фасовки:</div>
+									<div class="characteristic__content">2250 гр.</div>
+								</div>
+							</div>
+							<p>Сыр Страккино относится к мягким итальянским сырам. Производят его в Ломбардии из пастеризованного молока, которое дают коровы провинции Гросетто (Grosetto). По одной из версий название сыра страккино происходит от ломбардского stracch con, что в переводе обозначает «уставший». Коровы летом возвращались с альпийских пастбищ уставшими и давали мало молока. Отсюда и пошло название сыра, который делали из него. Это жирный, пластичный свежий сыр (20-30 дней выдержки) с легкой едва уловимой горчинкой. Достаточно намазать его на кусок свежего хлеба или фокачча, и уже будет вкусно.</p>
+							<h2 class="info__subtitle">Характеристики(БЖУ на 100 г.):</h2>
+							<p>белки — 12 г. жиры — 24 г. углеводы — 2 г. Калорийность сыра Страккино — 364 <br> ккал. Соотношение БЖУ: белков — 31,6 %, жиров — 63,2 %, углеводов — 5,3 %.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product__item" id="ricotta">
+					<div class="product__gallery">
+						<div class="product-slider owl-carousel owl-theme">
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+						</div>
+					</div>
+					<div class="product-info info">
+						<div class="product-info__item info">
+							<h1 class="info__title">Рикота</h1>
+							<div class="characteristic">
+								<div class="characteristic__item">
+									<img src="img/i-check-black.png" alt="Срок созревания" class="characteristic__img">
+									<div class="characteristic__title">Срок созревания:</div>
+									<div class="characteristic__content">20-30 дней</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-earth-black.png" alt="Страна происхождения" class="characteristic__img">
+									<div class="characteristic__title">Страна происхождения:</div>
+									<div class="characteristic__content">Италия</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-format-black.png" alt="Формат фасовки" class="characteristic__img">
+									<div class="characteristic__title">Формат фасовки:</div>
+									<div class="characteristic__content">2250 гр.</div>
+								</div>
+							</div>
+							<p>Сыр Страккино относится к мягким итальянским сырам. Производят его в Ломбардии из пастеризованного молока, которое дают коровы провинции Гросетто (Grosetto). По одной из версий название сыра страккино происходит от ломбардского stracch con, что в переводе обозначает «уставший». Коровы летом возвращались с альпийских пастбищ уставшими и давали мало молока. Отсюда и пошло название сыра, который делали из него. Это жирный, пластичный свежий сыр (20-30 дней выдержки) с легкой едва уловимой горчинкой. Достаточно намазать его на кусок свежего хлеба или фокачча, и уже будет вкусно.</p>
+							<h2 class="info__subtitle">Характеристики(БЖУ на 100 г.):</h2>
+							<p>белки — 12 г. жиры — 24 г. углеводы — 2 г. Калорийность сыра Страккино — 364 <br> ккал. Соотношение БЖУ: белков — 31,6 %, жиров — 63,2 %, углеводов — 5,3 %.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product__item" id="mozzarella">
+					<div class="product__gallery">
+						<div class="product-slider owl-carousel owl-theme">
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+						</div>
+					</div>
+					<div class="product-info info">
+						<div class="product-info__item info">
+							<h1 class="info__title">Моцарелла</h1>
+							<div class="characteristic">
+								<div class="characteristic__item">
+									<img src="img/i-check-black.png" alt="Срок созревания" class="characteristic__img">
+									<div class="characteristic__title">Срок созревания:</div>
+									<div class="characteristic__content">20-30 дней</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-earth-black.png" alt="Страна происхождения" class="characteristic__img">
+									<div class="characteristic__title">Страна происхождения:</div>
+									<div class="characteristic__content">Италия</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-format-black.png" alt="Формат фасовки" class="characteristic__img">
+									<div class="characteristic__title">Формат фасовки:</div>
+									<div class="characteristic__content">250 гр.</div>
+								</div>
+							</div>
+							<p>Моцарелла — молодой итальянский рассольный сыр с очень нежной текстурой. Размер одной головки моцареллы может быть с виноградину или с детский кулак, в зависимости от чего моцарелла может иметь дополнительное имя: например, среднего размера шарики моцареллы называются боккончини. Моцарелла, которая доезжает в вакуумной упаковке до наших краев, сделана по большей части из коровьего молока, но лучшую моцарелу делают из буйволиного. Обычно это указывается на упаковках. Там так и пишут: «Моцарелла буффало». Магазинная моцарелла часто горчит и долго не хранится. С моцареллой в Италии делают множество блюд, включая знаменитый салат капрезе, но свежую моцареллу лучше всего есть просто так, сбрызнув небольшим количеством бальзамико. Для пиццы нужна плотная и тяжелая моцарелла с пониженной влажностью и меньшим содержанием жира. И то и другое уведичивает срок годности, а главное — улучшает поведение сыра при нагревании: он эластично растягивается по всей пицце, а та не размягчается.</p>
+							<h2 class="info__subtitle">Характеристики(БЖУ на 100 г.):</h2>
+							<p>белки — 12 г. жиры — 24 г. углеводы — 2 г. Калорийность сыра Страккино — 364 <br> ккал. Соотношение БЖУ: белков — 31,6 %, жиров — 63,2 %, углеводов — 5,3 %.</p>
+						</div>
+					</div>
+				</div>
+				<div class="product__item" id="suluguni">
+					<div class="product__gallery">
+						<div class="product-slider owl-carousel owl-theme">
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+							<div class="product-slider__item" style="background-image: url(img/home-slide-1.jpg)"></div>
+						</div>
+					</div>
+					<div class="product-info info">
+						<div class="product-info__item info">
+							<h1 class="info__title">Сулугуни</h1>
+							<div class="characteristic">
+								<div class="characteristic__item">
+									<img src="img/i-check-black.png" alt="Срок созревания" class="characteristic__img">
+									<div class="characteristic__title">Срок созревания:</div>
+									<div class="characteristic__content">20-30 дней</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-earth-black.png" alt="Страна происхождения" class="characteristic__img">
+									<div class="characteristic__title">Страна происхождения:</div>
+									<div class="characteristic__content">Италия</div>
+								</div>
+								<div class="characteristic__item">
+									<img src="img/i-format-black.png" alt="Формат фасовки" class="characteristic__img">
+									<div class="characteristic__title">Формат фасовки:</div>
+									<div class="characteristic__content">2250 гр.</div>
+								</div>
+							</div>
+							<p>Сыр Страккино относится к мягким итальянским сырам. Производят его в Ломбардии из пастеризованного молока, которое дают коровы провинции Гросетто (Grosetto). По одной из версий название сыра страккино происходит от ломбардского stracch con, что в переводе обозначает «уставший». Коровы летом возвращались с альпийских пастбищ уставшими и давали мало молока. Отсюда и пошло название сыра, который делали из него. Это жирный, пластичный свежий сыр (20-30 дней выдержки) с легкой едва уловимой горчинкой. Достаточно намазать его на кусок свежего хлеба или фокачча, и уже будет вкусно.</p>
+							<h2 class="info__subtitle">Характеристики(БЖУ на 100 г.):</h2>
+							<p>белки — 12 г. жиры — 24 г. углеводы — 2 г. Калорийность сыра Страккино — 364 <br> ккал. Соотношение БЖУ: белков — 31,6 %, жиров — 63,2 %, углеводов — 5,3 %.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section_wood">
+			<div class="container">
+				<div class="section-header">
+					<div class="section-header__title">
+						<span>РЕЦЕПТЫ С СЫРОМ МОЦАРЕЛЛА</span>
+						<button href="#" class="section-header__btn slider-btn-left" data-for="recipe-slider"></button>
+						<button href="#" class="section-header__btn slider-btn-right" data-for="recipe-slider"></button>
+					</div>
+					
+					<a href="#" class="section-header__button">Все рецепты</a>
+				</div>
+				<div class="recipe-slider owl-carousel">
+					<div>
+						<div class="card card_long">
+							<div class="card-img" style="background-image: url(img/prod-1.jpg)">
+							</div>
+							<div class="card-info">
+								<div class="card-info__date">06.020.2017</div>
+								<div class="card-info__name">Картофельные крокеты с моцареллой</div>    
+								<div class="card-recipe">
+									<div class="card-recipe__item">
+										<div class="card-recipe__icon i-check"></div>
+										<div class="card-recipe__text">- 1 ч. 20 мин</div>
+									</div>
+									<div class="card-recipe__item">
+										<div class="card-recipe__icon i-add"></div>
+										<div class="card-recipe__text">- моцарелла</div>
+									</div>
+								</div>
+								<div class="card-info__social">Соц. сети</div>
+							</div>
+						</div>
+						<div class="card card_long">
+							<div class="card-img" style="background-image: url(img/prod-1.jpg)">
+							</div>
+							<div class="card-info">
+								<div class="card-info__date">06.020.2017</div>
+								<div class="card-info__name">Картофельные крокеты с моцареллой</div>    
+								<div class="card-recipe">
+									<div class="card-recipe__item">
+										<div class="card-recipe__icon i-check"></div>
+										<div class="card-recipe__text">- 1 ч. 20 мин</div>
+									</div>
+									<div class="card-recipe__item">
+										<div class="card-recipe__icon i-add"></div>
+										<div class="card-recipe__text">- моцарелла</div>
+									</div>
+								</div>
+								<div class="card-info__social">Соц. сети</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card card_long">
+							<div class="card-img" style="background-image: url(img/prod-1.jpg)">
+							</div>
+							<div class="card-info">
+								<div class="card-info__date">06.020.2017</div>
+								<div class="card-info__name">Картофельные крокеты с моцареллой</div>    
+								<div class="card-recipe">
+									<div class="card-recipe__item">
+										<div class="card-recipe__icon i-check"></div>
+										<div class="card-recipe__text">- 1 ч. 20 мин</div>
+									</div>
+									<div class="card-recipe__item">
+										<div class="card-recipe__icon i-add"></div>
+										<div class="card-recipe__text">- моцарелла</div>
+									</div>
+								</div>
+								<div class="card-info__social">Соц. сети</div>
+							</div>
+						</div>
+						<div class="card card_long">
+							<div class="card-img" style="background-image: url(img/prod-1.jpg)">
+							</div>
+							<div class="card-info">
+								<div class="card-info__date">06.020.2017</div>
+								<div class="card-info__name">Картофельные крокеты с моцареллой</div>    
+								<div class="card-recipe">
+									<div class="card-recipe__item">
+										<div class="card-recipe__icon i-check"></div>
+										<div class="card-recipe__text">- 1 ч. 20 мин</div>
+									</div>
+									<div class="card-recipe__item">
+										<div class="card-recipe__icon i-add"></div>
+										<div class="card-recipe__text">- моцарелла</div>
+									</div>
+								</div>
+								<div class="card-info__social">Соц. сети</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="footer">
+				<div class="copyright">
+					© ООО "Провиант" г. Уссурийск 2017, Частная сыроварня Алексей-Никольское
+				</div>
+				<div class="dev">
+					<div class="dev__text">Разработка сайта</div>
+					<a href="#">
+						<img src="img/dev-logo.png" alt="" class="dev__img">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+		var addr = "Владивосток, Суханова 6";
+	</script>
+	<script src="js/main.min.js"></script>
+</body>
+</html>
