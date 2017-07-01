@@ -214,20 +214,20 @@ $(document).ready(function () {
 		items: 6,
 		slideBy: 6,
 		margin: 12,
+//		autoplay: true,
+//		autoplayTimeout: 5000,
+//		autoplayHoverPause: true
+	})
+	$('.recipe-slider').owlCarousel({
+		loop: true,
+		nav: false,
+		navText: [ '', '' ],
+		items: 2,
+		slideBy: 2,
+		margin: 20,
 		autoplay: true,
 		autoplayTimeout: 5000,
 		autoplayHoverPause: true
-	})
-	$('.recipe-slider').owlCarousel({
-		loop:true,
-		nav:false,
-		navText: [ '', '' ],
-		items:2,
-		slideBy: 6,
-		margin: 20,
-		autoplay:true,
-		autoplayTimeout:5000,
-		autoplayHoverPause:true
 	})
 	$('.slider-btn-right').click(function() {
 		$('.' + $(this).attr('data-for')).trigger('next.owl.carousel');
